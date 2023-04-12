@@ -6,7 +6,6 @@ public class Main {
 
 
 //      DATA TYPES
-//        asdfdsf
 
         byte myByte = 127;
         short myShort = 1000;
