@@ -1,5 +1,7 @@
 package com.ironhack.w1.d2;
 
+import com.ironhack.w1.d3.Movie;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
