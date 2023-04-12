@@ -14,16 +14,45 @@ public class InputOutput {
 
         Scanner scanner = new Scanner(System.in);
 
-//        String name;
-//        do {
-//            System.out.println("Please write your name");
-//            name = scanner.nextLine();
-//        } while (name.length() < 3);
-//        System.out.println("Your name is: " + name);
+        String name;
+        do {
+            System.out.println("Please write your name");
+            name = scanner.nextLine();
+        } while (name.length() < 3);
+        System.out.println("Your name is: " + name);
+
+        System.out.println("Please write your age");
+        int age = scanner.nextInt();
+        System.out.println("Your age is: " + age);
+
+
+
+
+//        String ageStr;
+//        boolean isValidInput;
 //
-//        System.out.println("Please write your age");
-//        int age = scanner.nextInt();
-//        System.out.println("Your age is: " + age);
+//        do {
+//            System.out.println("Please, write your age");
+//            ageStr = scanner.nextLine();
+//            isValidInput = true;
+//
+//            if (ageStr.length() == 0) {
+//                isValidInput = false;
+//                continue;
+//            }
+//            for (int i = 0; i < ageStr.length(); i++) {
+//                if (ageStr.charAt(i) < '0' || ageStr.charAt(i) > '9') {
+//                    System.out.println("Age must be a number");
+//                    isValidInput = false;
+//                    break;
+//                }
+//            }
+//        } while (!isValidInput);
+//
+//        int ageNum = Integer.parseInt(ageStr);
+//        System.out.println("Age: " + ageNum);
+
+
 
         scanner.close();
 
