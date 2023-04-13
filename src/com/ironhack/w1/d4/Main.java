@@ -39,6 +39,5 @@ public class Main {
         else if (bd1.compareTo(bd2) < 0) System.out.println("bd1 es menor");
         else if (bd1.compareTo(bd2) == 0) System.out.println("bd1 es igual a bd2");
 
-//        comentario en nueva rama
     }
 }
